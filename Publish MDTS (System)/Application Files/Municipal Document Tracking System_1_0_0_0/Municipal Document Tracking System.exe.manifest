@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Municipal Document Tracking System.exe" version="1.0.0.0" publicKeyToken="ba6b80e446d56e28" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Municipal Document Tracking System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Municipal Document Tracking System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Buffers" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Memory" version="4.0.1.1" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Numerics.Vectors" version="4.1.4.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="2609152">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.9.0" publicKeyToken="0E99375E54769942" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MzkDx9IqJwmORfxkt3omSqIgYFz70+MpwgDX5LQsiBw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1510056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v3KTmSKvos0XBx9RcLSoLQW86x/DPOKc37xo27l/Anc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="2592768">
+      <assemblyIdentity name="itextsharp" version="5.5.13.3" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zloQfa1DpBAe6z/oT/bRc6bVXzTwv/cltTY2bxDplBA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Municipal Document Tracking System.exe" size="1292248">
+      <assemblyIdentity name="Municipal Document Tracking System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>B3pNdS93/SM3MyAv9jtAshp+40s8J7xvArfbDC6nAjo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="407040">
+      <assemblyIdentity name="MySql.Data" version="6.10.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0sfC1XN+eDnEyvyDSkcQgv7Ar6x5wsMRbQmI5HFNbwc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySqlBackup.dll" size="62976">
+      <assemblyIdentity name="MySqlBackup" version="2.0.7.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lgZENsvb3l804i/LqvCw82p21BKlK1gSVXH0GZCsaZY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Runtime.CompilerServices.Unsafe.dll" size="16768">
+      <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" version="5.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PK3La4pzNRQcfDV6HXevH/SbWbhy30lPUCVYAZHRwNU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZstdNet.dll" size="28672">
+      <assemblyIdentity name="ZstdNet" version="1.4.5.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5rrHKgOqMPqN1beBJzpCDZqXH9jaD2Uf7MolVellyt4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Municipal Document Tracking System.exe.config" size="802">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VpEtC1HL0gFaBUTRvcKiqLwy76YrhMAGRxUTCicAN5w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-E9NO7DV\Mata" issuerKeyHash="6d69878504dab557a37ae4e926a39f4b54165181" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vAWKa9JzResTSkhvYRh8PUrBGCNUlDk3pTdh6SjrJq8=</DigestValue></Reference></SignedInfo><SignatureValue>JkeQrzxGxh7yhTL6d5gwohCGlzKxxqt9oqSfWK0W467kt7+YgyHsictIjJaMojRSl/9osXxi8oqEs5pJ6L9OgHBS3mAjq9JTToogXrzDfK04UP/YnrBmjuOtjfKQn/u/UBUDJzrGIHt030mq214k6medT9TBFLU9iUdYEgmXiZo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s5g5bOe6/8uEJ9RZtW7nrvalRvTZJYmwXcOCOEjS+3NBhf6kVk6ipumQRmlrlweUGvcJYfCQ6L5GupdlQPgD2spi60qj3L9WSgSQi1d1Zmb54A7zNNjbk4dzZxPARLLVjX4chKdklAkBKMEkok4TeK7CsS14bOQygM5lnlSyH7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="af26eb28e96137a5373994542318c14a3d7c18616f484a13eb4573d26b8a05bc" Description="" Url=""><as:assemblyIdentity name="Municipal Document Tracking System.exe" version="1.0.0.0" publicKeyToken="ba6b80e446d56e28" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E9NO7DV\Mata</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KLan6VtpE0h+T2mYDaEfMv7jOpwNYZqFGqpRafWHDjY=</DigestValue></Reference></SignedInfo><SignatureValue>T8VS+FdwcYmxGS7EkyrYJBV1GhlUpaQypl5VxehY/H7tX+pD9wIyjt8Svq4uuPJuITLIFtsE4k1EZL3I74R1gxNspGrAPbdbW7S98knnMpipIvD3SjYH4ysyxld/4+aiMvZtVPdlFqZeg+zoGWw9JM/EHRqtskOCVWDVqdQAm88=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s5g5bOe6/8uEJ9RZtW7nrvalRvTZJYmwXcOCOEjS+3NBhf6kVk6ipumQRmlrlweUGvcJYfCQ6L5GupdlQPgD2spi60qj3L9WSgSQi1d1Zmb54A7zNNjbk4dzZxPARLLVjX4chKdklAkBKMEkok4TeK7CsS14bOQygM5lnlSyH7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQQNLrt4sBs6hDmIQff7CGCDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEUAOQBOAE8ANwBEAFYAXABNAGEAdABhMB4XDTIzMDIxMzE3Mzc1NloXDTI0MDIxMzIzMzc1NlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBFADkATgBPADcARABWAFwATQBhAHQAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAs5g5bOe6/8uEJ9RZtW7nrvalRvTZJYmwXcOCOEjS+3NBhf6kVk6ipumQRmlrlweUGvcJYfCQ6L5GupdlQPgD2spi60qj3L9WSgSQi1d1Zmb54A7zNNjbk4dzZxPARLLVjX4chKdklAkBKMEkok4TeK7CsS14bOQygM5lnlSyH7kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCFLHVX3uUK7eJsujf/62ppEL5NSd0+pOXRkbkQkYCojoMVSB3+tCCXulPy4/44r4vPfM8AgG6uqz2LPgWGAJU0nQDBpseVEtWNNIy9chA6KNycMVHdYk7jQxA2G1FVXOD+6O5eTun0u+67YnC35cgQYEqomeFw8e7SI1KjSQEGvA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
